@@ -14,9 +14,11 @@ acme.sh support is planned for Let's Encrypt certificates
 
 Templated from [DRF-Template](https://github.com/lemeow125/DRF_Template)
 
-### Deployment
+### Setup
 
 Use the provided `docker-compose.yml` in this repository. Set `DEBUG` to `False` and populate the `.env` file with your SMTP/email provider and credentials.
+
+Setup assumes you have your own DNS provider set up externally. See [setup](documentation/setup/README.md) for more info
 
 #### External Database
 
